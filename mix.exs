@@ -25,7 +25,7 @@ defmodule LagerLogger.Mixfile do
 
 
   def application do
-    [applications: [:lager, :logger]]
+    [applications: [:logger, :lager]]
   end
 
   defp deps do
